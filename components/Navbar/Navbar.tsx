@@ -16,9 +16,17 @@ const Navbar: React.FC<NavbarProps> = () => {
 	};
 
 	return (
-		<div className="flex items-center justify-between sm:px-12 px-2 md:px-24">
+		<div className="flex items-center justify-between px-2 sm:px-12 md:px-24">
 			<Link href="/" className="flex items-center justify-center h-20">
-				<Image src="/leetcode.png" alt="logo" width={144} height={44} />
+				<Image
+					src="/leetcode.png"
+					alt="logo"
+					// width={144} height={44}
+					width="0"
+					height="0"
+					sizes="100vw"
+					style={{ width: "144px", height: "auto" }}
+				/>
 			</Link>
 
 			<div className="flex items-center">
