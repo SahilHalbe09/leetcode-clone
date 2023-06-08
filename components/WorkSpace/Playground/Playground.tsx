@@ -84,7 +84,6 @@ const Playground: React.FC<PlaygroundProps> = ({ problem, setSuccess, setSolved 
 				}
 			}
 		} catch (error: any) {
-			console.log(error.message);
 			if (error.message.startsWith("AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:")) {
 				toast.error("Oops! One or more test cases failed", {
 					position: "top-center",

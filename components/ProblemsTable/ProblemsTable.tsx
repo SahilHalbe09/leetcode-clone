@@ -27,7 +27,6 @@ const ProblemsTable: React.FC<ProblemsTableProps> = ({ setLoadingProblems }) => 
 
 	const problems = useGetProblems(setLoadingProblems);
 	const solvedProblems = useGetSolvedProblems();
-	console.log(solvedProblems);
 
 	useEffect(() => {
 		const handleEsc = (e: KeyboardEvent) => {

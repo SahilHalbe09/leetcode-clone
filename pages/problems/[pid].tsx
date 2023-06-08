@@ -13,8 +13,6 @@ const ProblemPage: React.FC<ProblemPageProps> = ({ problem }) => {
 	const hasMounted = useHasMounted();
 	if (!hasMounted) return null;
 
-	console.log(problem);
-
 	return (
 		<>
 			<Topbar problemPage />

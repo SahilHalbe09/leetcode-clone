@@ -17,8 +17,6 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
 		if (success) {
 			toast.success("Email Sent Successfully!", { position: "top-center", autoClose: 3000, theme: "dark" });
 		}
-
-		console.log(email);
 	};
 
 	useEffect(() => {
@@ -26,7 +24,7 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
 	}, [error]);
 
 	return (
-		<form className="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8" onSubmit={handleReset}>
+		<form className="px-6 pb-4 space-y-6 lg:px-8 sm:pb-6 xl:pb-8" onSubmit={handleReset}>
 			<h3 className="text-xl font-medium text-black">Reset Password</h3>
 			<p className="text-sm text-gray-500 p-4 border border-brand-orange rounded shadow bg-[#FFFFE0]">
 				Forgotten your password? Enter your e-mail address below, and we will send you an e-mail allowing you to reset it.
@@ -37,7 +35,7 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
 					name="email"
 					onChange={(e) => setEmail(e.target.value)}
 					id="email"
-					className="border outline-none rounded focus:ring-black focus:border-black w-full p-2 bg-white border-gray-400 placeholder-gray-500 placeholder:font-thin hover:border-gray-700 text-black"
+					className="w-full p-2 text-black placeholder-gray-500 bg-white border border-gray-400 rounded outline-none focus:ring-black focus:border-black placeholder:font-thin hover:border-gray-700"
 					placeholder="E-mail address"
 				/>
 			</div>
