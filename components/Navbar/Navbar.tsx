@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useSetRecoilState } from "recoil";
 import { authModalState } from "../../atoms/authModalAtom";
+import image from "./leetcode.png";
 
 type NavbarProps = {};
 
@@ -19,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 		<div className="flex items-center justify-between px-2 sm:px-12 md:px-24">
 			<Link href="/" className="flex items-center justify-center h-20">
 				<Image
-					src="/leetcode.png"
+					src="/Leetcode.png"
 					alt="logo"
 					// width={144} height={44}
 					width="0"
