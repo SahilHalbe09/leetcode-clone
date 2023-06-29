@@ -62,14 +62,17 @@ https://www.youtube.com/watch?v=EG5cysZMED4
 
 ## Screenshots
 
-### Home page
-![Home page](https://i.paste.pics/M5I43.png)
+### Home page 
+![Home page](https://i.ibb.co/Pxpr0M3/image.png)
 
-### Single Post Page
-![Single Post](https://i.paste.pics/M5I59.png)
+### Problem Page
+![Problem Page](https://i.ibb.co/0t1S2Gy/image.png)
 
-### Community Page
-![Community Page](https://i.paste.pics/M5I5N.png)
+### Problem Success
+![Problem Success](https://i.ibb.co/x86qqwr/image.png)
+
+### Sign In Page
+![Sign In Page](https://i.ibb.co/fFcjLHc/image.png)
 
 ## Contributing
 
@@ -77,4 +80,4 @@ Contributions are always welcome! If you have any ideas, suggestions, or bug fix
 
 ## Feedback / Contact
 
-If you have any feedback, please reach out to me at sahilhalbe.business@gmail.com
+If you have any feedback, please reach out to me at sahilhalbe.business@gmail.com or visit [my site](https://www.thesahildev.in/)
